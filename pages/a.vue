@@ -5,7 +5,7 @@
         Page A
       </h1>
       <div class="links">
-        <nuxt-link to="/b">Go to Page: B</nuxt-link>
+        <nuxt-link to="/b">Go to Page B</nuxt-link>
       </div>
     </div>
   </div>
