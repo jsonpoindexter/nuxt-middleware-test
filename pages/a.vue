@@ -15,19 +15,19 @@
 
 export default {
   middleware() {
-    console.error("[a] ANON MIDDLEWARE");
+    console.log("[a] ANON MIDDLEWARE");
   },
   beforeCreate: function() {
-    console.error("[a] beforeCreate");
+    console.log("[a] beforeCreate");
   },
   created: function() {
-    console.error("[a] created");
+    console.log("[a] created");
   },
   beforeMount: function() {
-    console.error("[a] beforeMount");
+    console.log("[a] beforeMount");
   },
   mounted: function(){
-    console.error("[a] mounted");
+    console.log("[a] mounted");
   },
 };
 </script>

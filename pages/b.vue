@@ -14,17 +14,17 @@
 <script>
 export default {
   beforeCreate: function() {
-    console.error("[b] beforeCreate");
+    console.log("[b] beforeCreate");
 
   },
   created: function() {
-    console.error("[b] created");
+    console.log("[b] created");
   },
   beforeMount: function() {
-    console.error("[b] beforeMount");
+    console.log("[b] beforeMount");
   },
   mounted: function(){
-    console.error("[b] mounted");
+    console.log("[b] mounted");
   },
 }
 </script>
